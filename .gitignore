@@ -1,0 +1,19 @@
+# Python / env
+__pycache__/
+*.pyc
+.venv/
+spike/.venv/
+.env
+*.key
+
+# Model weights are never committed (SAM License / Apache 2.0, downloaded by script)
+models/
+spike/models/
+*.safetensors
+*.gguf
+
+# Local spike outputs and personal photos stay on the Mac until reviewed
+spike/results/
+spike/photos/
+spike/labels.csv
+.DS_Store
